@@ -1,5 +1,5 @@
 {
-  "name": "mypr",
+  "name": "myprs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,15 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "myprs": "./cli.js"
+    "myprs": "./cli.js",
+    "myprsusers": "./users.js"
   },
   "dependencies": {
     "find-up": "^3.0.0",
     "git-username": "^1.0.0",
+    "open-in-editor": "^2.2.0",
     "opn": "^5.4.0",
-    "parse-git-config": "^2.0.3"
+    "parse-git-config": "^2.0.3",
+    "table": "^5.1.0"
   }
 }
